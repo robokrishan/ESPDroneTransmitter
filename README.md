@@ -35,7 +35,7 @@ SCK | 13
 MOSI | 11
 MISO | 12
 
-On some modules, you may not have the labels printed on the PCB. Have a look at the following image for reference of the pinout. The pin with a square-shaped solder is the GND pin. (Shoutout to HowToMechatronics.com!)
+On some modules, you may not have the labels printed on the PCB. Have a look at the following image for reference of the pinout. The pin with a square-shaped solder on your NRF module is the GND pin. (Shoutout to HowToMechatronics.com!)
 
 <p align="center">
   <img src="/img/nrfpins.png" width=400 />
