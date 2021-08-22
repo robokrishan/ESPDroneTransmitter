@@ -48,6 +48,7 @@ The following image shows the Hardware that was used for testing the Transmitter
   <img src="/img/transmitter.jpg" width="400" />
 </p>
 
+I soldered a potentiometer on Analog Pin A6. I plan on configuring other channels for Roll, Pitch, Yaw, etc.
 
 # Wireless Comms.
 The ESPDroneTransmitter object is programmed to read raw digital input from a potentiometer connected to Analog Pin 6 (A6), parse the input into a char array, and transmit to the FC receiver (ESPDrone object). The raw input from the potentiometer is in the range [0, 1023].
