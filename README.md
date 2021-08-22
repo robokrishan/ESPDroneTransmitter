@@ -20,8 +20,8 @@ Arduino Nano/Uno | Microcontroller Board for running Transmitter Firmware
 NRF24L01+ | 2.4 GHz Wireless Transceiver Module
 
 <p align="left">
-  <img src="/img/nrf.jpeg" height="200" />
-  <img src="/img/nano.jpg" height="200" /> 
+  <img src="/img/nrf.jpeg" height="250" />
+  <img src="/img/nano.jpg" height="250" /> 
 </p>
 
 ### NRF24L01+ Connection to Nano
@@ -37,7 +37,7 @@ MISO | 12
 
 On some modules, you may not have the labels printed on the PCB. Have a look at the following image for reference of the pinout. The pin with a square-shaped solder on your NRF module is the GND pin. (Shoutout to HowToMechatronics.com!)
 
-<p align="left">
+<p align="center">
   <img src="/img/nrfpins.png" width=400 />
 </p>
 
