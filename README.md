@@ -4,8 +4,10 @@ Library for driving an NRF24L01+ Radio-based Receiver. The ESPDroneTransmitter c
 The library is for easily configuring and deplying an RC Transmitter object onto an Arduino board.
 
 # Dependencies
-- SPI.h (Internal Arduino Lib)
-- RF24.h (by J. Coliz, 2011)
+Library | Author
+------- | ------
+<SPI.h> | Internal Arduino Lib
+<RF24.h> | J. Coliz, 2011
 
 The transmitter object uses the NRF24L01+ module configured on the SPI Bus. Use the parametrized constructor - RF24(CE,CS). Default configuration is RF24(7,8);
 
