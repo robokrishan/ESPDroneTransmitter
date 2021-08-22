@@ -20,8 +20,8 @@ Arduino Nano/Uno | Microcontroller Board for running Transmitter Firmware
 NRF24L01+ | 2.4 GHz Wireless Transceiver Module
 
 <p align="center">
-  <img src="/img/nrf.jpeg" width="300" />
-  <img src="/img/nano.jpg" width="300" /> 
+  <img src="/img/nrf.jpeg" height="200" />
+  <img src="/img/nano.jpg" height="200" /> 
 </p>
 
 # Prototype
