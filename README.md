@@ -7,9 +7,9 @@ The library is for easily configuring and deplying an RC Transmitter object onto
 - SPI.h (Internal Arduino Lib)
 - RF24.h (by J. Coliz, 2011)
 
-The transmitter object uses the NRF24L01+ module configured on the SPI Bus. Use the parametrized constructor - RF24(CE,CS).
+The transmitter object uses the NRF24L01+ module configured on the SPI Bus. Use the parametrized constructor - RF24(CE,CS). Default configuration is RF24(7,8);
 
 # Wireless Comms.
-The ESPDroneTransmitter object is programmed to read raw digital input from a potentiometer connected to Analog Pin 6 (A6), parse the input into a char array, and transmit to the FC receiver (ESPDrone object).
+The ESPDroneTransmitter object is programmed to read raw digital input from a potentiometer connected to Analog Pin 6 (A6), parse the input into a char array, and transmit to the FC receiver (ESPDrone object). The raw input from the potentiometer is in the range [0,1023].
 
 The ESPDrone library can be found on the following Github Link: https://github.com/robokrishan/ESPDrone
