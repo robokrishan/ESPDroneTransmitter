@@ -20,6 +20,6 @@ NRF24L01+ | 2.4 GHz Wireless Transceiver Module
 
 
 # Wireless Comms.
-The ESPDroneTransmitter object is programmed to read raw digital input from a potentiometer connected to Analog Pin 6 (A6), parse the input into a char array, and transmit to the FC receiver (ESPDrone object). The raw input from the potentiometer is in the range [0,1023].
+The ESPDroneTransmitter object is programmed to read raw digital input from a potentiometer connected to Analog Pin 6 (A6), parse the input into a char array, and transmit to the FC receiver (ESPDrone object). The raw input from the potentiometer is in the range [0, 1023].
 
 The ESPDrone library can be found on the following Github Link: https://github.com/robokrishan/ESPDrone
