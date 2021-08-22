@@ -12,6 +12,8 @@ Library | Author
 - The transmitter object uses the NRF24L01+ module configured on the SPI Bus. 
 - Use the parametrized constructor - ESPDroneTransmitter(CE, CSN). Default configuration is ESPDroneTransmitter(7, 8).
 
+** All dependencies are provided in the *"lib_dep.zip"* file.**
+
 # Hardware
 The list of elementary hardware is tabulated below.
 Hardware | Description
