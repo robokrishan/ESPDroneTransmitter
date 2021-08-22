@@ -45,7 +45,7 @@ On some modules, you may not have the labels printed on the PCB. Have a look at 
 # Prototype
 The following image shows the Hardware that was used for testing the Transmitter Firmware.
 <p align="center">
-  <img src="/img/transmitter.jpg" width="300" />
+  <img src="/img/transmitter.jpg" width="400" />
 </p>
 
 
