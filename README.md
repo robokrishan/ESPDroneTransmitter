@@ -24,6 +24,24 @@ NRF24L01+ | 2.4 GHz Wireless Transceiver Module
   <img src="/img/nano.jpg" height="200" /> 
 </p>
 
+### NRF24L01+ Connection to Nano
+NRF24L01+ | Nano
+--------- | ----
+GND | GND
+VCC | 3.3V
+CE | 7
+CSN | 8
+SCK | 13
+MOSI | 11
+MISO | 12
+
+On some modules, you may not have the labels printed on the PCB. Have a look at the following image for reference of the pinout. The pin with a square-shaped solder is the GND pin. (Shoutout to HowToMechatronics.com!)
+
+<p align="center">
+  <img src="/img/nrfpins.png" width=400 />
+</p>
+
+
 # Prototype
 The following image shows the Hardware that was used for testing the Transmitter Firmware.
 <p align="center">
