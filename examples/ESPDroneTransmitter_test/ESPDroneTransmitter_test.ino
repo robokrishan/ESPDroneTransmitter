@@ -5,6 +5,8 @@ ESPDroneTransmitter transmitter;
 void setup() {
   // put your setup code here, to run once:
   printStep("Transmitter Initialized");
+  transmitter.setRadioAddr("17619");
+  printStep("Transmitter Address Updated");
   transmitter.initTransmitter();
 }
 
