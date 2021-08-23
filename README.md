@@ -16,7 +16,7 @@ The library is developed for easily configuring and deplying an RC Transmitter o
 
 # Dependencies
 Library | Author
-------- | ------
+:-----: | :-----:
 <SPI.h> | Internal Arduino Lib
 <RF24.h> | J. Coliz, 2011
 
@@ -28,7 +28,7 @@ Library | Author
 # Hardware
 The list of elementary hardware is tabulated below.
 Hardware | Description
--------- | -----------
+:-----: | -----------
 Arduino Nano/Uno | Microcontroller Board for running Transmitter Firmware
 NRF24L01+ | 2.4 GHz Wireless Transceiver Module
 
@@ -39,7 +39,7 @@ NRF24L01+ | 2.4 GHz Wireless Transceiver Module
 
 ### NRF24L01+ Connection to Nano
 NRF24L01+ | Nano
---------- | ----
+:-----: | :-----:
 GND | GND
 VCC | 3.3V
 CE | 7
